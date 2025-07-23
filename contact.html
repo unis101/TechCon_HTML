@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Contact Info -->
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Email us at: 
+        <a href="mailto:email@example.com">email@example.com</a>
+      </p>
+
+      <p>Follow us on:</p>
+      <ul>
+        <li><a href="https://www.twitter.com/TechCon" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/TechCon" target="_blank">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/company/TechCon" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <!-- Google Map -->
+    <section>
+      <h2>Conference Venue</h2>
+      <div style="width: 100%; max-width: 600px;">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.516118491379!2d36.81724431475161!3d-1.2863897990666515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d30a542eb5%3A0x3a3466a9bcf8c8ce!2sKICC%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1627386600882!5m2!1sen!2ske" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+        <div>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <br />
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
